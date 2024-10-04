@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="destinarion.html">
+        <fieldset class="fondo1">
+            <legend style="background-color: aliceblue; padding: auto; border: 1px solid black;">Datos Personales</legend>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" required />
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" name="apellidos" required />
+                    <label for="dni">DNI:</label>
+                    <input type="text" name="dni" required />
+                </p>
+                <p>
+                    <label for="lugar de nacimiento">Lugar de Nacimiento:</label>
+                    <input type="text" name="lugar de nacimiento" required />
+                    <label for="Provincia:">Provincia</label>  
+                    <select name="Provincia">
+                    <option value="C">Caceres</option>
+                    <option value="B">Badajoz</option>
+                    </select> 
+                    <label for="fecha de nacimiento">Provincia</label>  
+                    <input type="date" name="fecha de nacimiento"/>
+                </p>
+                <p>
+                    <label for="direccion">Direccion:</label>
+                    <input type="text" name="direccion" required />
+                    <label for="codigo postal">Codigo postal:</label>
+                    <input type="text" name="codigo postal" required />
+                </p>
+                
+        </fieldset>
+        <fieldset class="fondo2">
+            <legend style="background-color: aliceblue; padding: auto; border: 1px solid black;">Forma de Acceso</legend>
+            <p>
+                <input type="radio" name="d" required />
+                <label for="directo">Directo</label>
+            </p>
+            <p class="acceso">
+                <input type="radio" name="di" required />
+                <label for="Bachillerato">Bachillerato</label>
+                <input type="text" name="Bachillerato" required />
+            </p>
+            <p class="acceso">
+                <input type="radio" name="di" required />
+                <label for="universidad">Universidad</label>
+            </p>
+            <p class="acceso">
+                <input type="radio" name="di" required />
+                <label for="grado medio">Grado Medio</label>
+                <input type="text" name="grado medio" required />
+            </p>
+            <p class="acceso">
+                <input type="radio" name="di" required />
+                <label for="otros">Otros</label>
+                <input type="text" name="Otros" required />
+            </p>
+            <p>
+                <input type="radio" name="d" required />
+                <label for="prueba libre">Prueba Libre</label>
+            </p>
+        </fieldset>
+        <fieldset class="fondo3">
+            <legend style="background-color: aliceblue; padding: auto; border: 1px solid black;">Documentos Adjuntados</legend>
+            <p>
+                <input type="checkbox" name="d" required />
+                <label for="fotocopia">Fotocopia DNI</label>
+                <input type="checkbox" name="d" required />
+                <label for="certificado">Certificado Academico</label>
+            </p>
+            <p>
+                <input type="checkbox" name="d" required />
+                <label for="otros documentos">Otros Documentos (especifique)</label>
+                <input type="text" name="documentos" required />
+            </p>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
