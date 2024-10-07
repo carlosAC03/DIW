@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssF5.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario5.html" method="post">
+        <p>
+            <label for="nombre">Nombre</label>
+        </p>
+        <p>
+            <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+        </p>
+        <p>
+            <label for="email">E-mail</label>
+        </p>
+        <p>
+            <input type="email" id="email" name="email" placeholder="mail válido" required>
+        </p>
+        <p>
+            <label for="mensaje">Escriba su mensaje</label>
+        </p>
+        <p>
+            <textarea id="mensaje" name="mensaje" cols="40" rows="10" required></textarea>
+        </p>
+        <p>
+            <input type="hidden" name="pagina" value="página de contacto">
+        </p>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

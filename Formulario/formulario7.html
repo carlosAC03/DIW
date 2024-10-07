@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario7.html" method="POST">
+        <label for="alias">Alias</label><br>
+        <input type="text" id="alias" name="alias" placeholder="alias" required>
+        <br><br>
+
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="e-mail" required>
+        <br><br>
+
+        <label for="telefono">Teléfono</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="teléfono" required>
+        <br><br>
+
+        <input type="hidden" name="tipo-usuario" value="usuario-nuevo">
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Restablecer</button>
+    </form>
+</body>
+</html>

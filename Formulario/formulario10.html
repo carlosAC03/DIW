@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario10.html" method="GET">
+    <p>
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="nombre" required>
+    </p>
+    <p>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email" placeholder="mail" required>
+    </p>
+    <p>
+        <label for="personas">Telefono</label><br>
+        <input type="number" id="personas" name="personas" placeholder="Su telefono">
+    </p>
+    <fieldset>
+        <legend>Lenguajes que conoce</legend>
+    <p>
+        <input type="checkbox" id="javascript" name="lenguajes" value="javascript">
+        <label for="javascript">JavaScript</label>
+    </p>
+        
+    <p>
+        <input type="checkbox" id="php" name="lenguajes" value="php">
+        <label for="php">PHP</label>
+    </p>
+       
+    <p>
+        <input type="checkbox" id="nodejs" name="lenguajes" value="nodejs">
+        <label for="nodejs">NodeJS</label>
+    </p>
+       
+    <p>
+        <input type="checkbox" id="python" name="lenguajes" value="python">
+        <label for="python">Python</label>
+    </p>
+        
+    </fieldset><br>
+
+    <label for="nivel_ingles">Nivel de Inglés</label><br>
+    <p>
+        <input type="radio" id="bajo" name="nivel_ingles" value="bajo" required>
+        <label for="bajo">Bajo</label>
+    </p>
+   
+    <p>
+        <input type="radio" id="medio" name="nivel_ingles" value="medio">
+        <label for="medio">Medio</label>
+    </p>
+
+    <p>
+        <input type="radio" id="alto" name="nivel_ingles" value="alto">
+        <label for="alto">Alto</label>
+    </p>
+
+    <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
