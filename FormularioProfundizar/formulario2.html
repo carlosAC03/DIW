@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  method="POST" action="procesar.php">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <p>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" maxlength="40" required>
+        </p>
+        <label for="apellidos">Apellidos</label>
+        <p>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" maxlength="60" required>
+        </p>
+        <label for="edad">Edad</label>
+        <p>
+            <input type="number" id="edad" name="edad" placeholder="Edad" min="18" max="90" required>
+        </p>
+        <label for="e-mail">E-mail</label>
+        <p>
+            <input type="email" id="email" placeholder="email@gmail.com" required>
+        </p>
+        <label for="contraseña">Contraseña</label>
+        <p>
+            <input type="password" id="password" required>
+        </p>
+        <label for="sex">Sexo</label>
+        <p>
+            <select name="sex" required>
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                <option value="O">Otros</option>
+                </select> 
+        </p>
+        <label>Dispositivos:</label>
+        <p>
+            <input type="checkbox" id="macbook" name="dispositivos[]" value="Macbook">
+            <label for="macbook">Macbook</label>
+        </p>
+       <p>
+            <input type="checkbox" id="iphone" name="dispositivos[]" value="iPhone">
+            <label for="iphone">iPhone</label>
+       </p>
+       <p>
+            <input type="checkbox" id="ipad" name="dispositivos[]" value="iPad">
+            <label for="ipad">iPad</label>
+       </p>
+       <label for="conocimiento">¿Cómo nos conociste?</label>
+       <p>
+        <select id="conocimiento" name="conocimiento">
+            <option value="red_social">Red social</option>
+            <option value="buscador" selected>Buscador</option>
+            <option value="amigos">Amigos</option>
+            <option value="otros">Otros</option>
+        </select>
+       </p>
+
+       <input type="checkbox" id="suscripcion" name="suscripcion">
+       <p>
+        <label for="suscripcion">Deseo suscribirme a la <a href="#">lista de correo</a></label>
+       </p>
+
+       <button type="submit">Contactar</button>
+</body>
+</html>

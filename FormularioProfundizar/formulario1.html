@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form  method="POST" action="procesar.php">
+        <label for="nombre">Nombre:</label>
+        <br>
+        <p>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre" maxlength="20" required>
+        </p>
+        <label for="apellidos">Apellidos</label>
+        <p>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" maxlength="20" required>
+        </p>
+        <label for="sex">Sexo</label>
+        <p>
+            <select name="sex">
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                </select> 
+        </p>
+        <label for="e-mail">E-mail</label>
+        <p>
+            <input type="email" id="email" placeholder="email@gmail.com">
+        </p>
+        <p>
+            <input type="checkbox" id="novedades" name="novedades" checked>
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+        </p>
+        
+        <p>
+            <input type="checkbox" id="acepto" name="acepto" required>
+            <label for="acepto">Acepto las condiciones generales del sitio sobre protección de datos</label>
+        </p>
+        
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
