@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    /* Estilos para el título dentro de la tabla */
+    .table-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      background-color: #f2f2f2;
+      color: #333;
+      padding: 15px;
+    }
+        p { text-decoration: underline; }
+        p { text-align: center; }
+        p { text-indent: 50px; }
+        p { vertical-align: bottom; }
+        p { line-height: 100px; }
+        p { text-transform: capitalize; }
+a { text-transform: uppercase; }
+a { text-transform: lowercase; }
+
+    </style>
+</head>
+<body>
+    <form>
+        <p>nlNkvnlknvlknlknlnml hola nbdfkjbsndkjbfjksdbfkjbfkdjsbnkjfbndskjfbjkdsfbjksj</p>
+        <label for="color">Selecciona un color:</label>
+        <select id="color" name="color">
+          <option value="rojo">Rojo</option>
+          <option value="verde" selected>Verde</option>
+          <option value="azul">Azul</option>
+        </select>
+        <label for="provincia">Provincia</label>
+            <select name="provincia" multiple>
+            <option value="Z">Zaragoza</option>
+            <option value="H">Huesca</option>
+            <option value="A">Teruel</option>
+ </select>
+        <label>
+            <input type="checkbox" name="suscribirse" value="si">
+            Suscribirse al boletín
+          </label>
+          <label>
+            <input type="checkbox" name="suscribirse" value="si">
+            Suscribirse al boletín
+          </label>
+        <label>
+            <input type="radio" name="genero" id="a" > Hombre
+          </label>
+          <label>
+            <input type="radio" name="genero" id="a" checked> Hombre
+          </label>
+          <label>
+            <input type="radio" name="genero" id="b" > Mujer
+          </label>
+          <br>
+          <textarea cols="10" rows="10">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptate corrupti ut
+           earum, aliquam sint amet repellendus, vitae placeat repellat quis, ipsa qui. Velit placeat reiciendis
+           tempore autem nostrum eaque?
+            </textarea>
+        
+        <button type="submit">Enviar</button>
+
+      </form>
+      <table>
+        <thead>
+          <tr>
+            <th class="table-title" colspan="3">Mi Tabla de Ejemplo</th>
+          </tr>
+          <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Ciudad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Juan Pérez</td>
+            <td>25</td>
+            <td>Madrid</td>
+          </tr>
+          <tr>
+            <td>María López</td>
+            <td>30</td>
+            <td>Barcelona</td>
+          </tr>
+          <tr>
+            <td>Carlos Gómez</td>
+            <td>28</td>
+            <td>Valencia</td>
+          </tr>
+        </tbody>
+      </table>
+      <fieldset>
+        <legend>Datos Personales </legend>
+        <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" placeholder ="Inserta Nombre" required />
+        </p>
+        <p>
+        <label for="apellidos" >Apellidos: </label>
+        <input type="text" name="apellidos" value="Pérez" readonly />
+        </p>
+        <p>
+        <label for="provincia" >Provincia</label>
+        <select name="provincia" >
+        <optgroup label="Aragon">
+        <option value="Z">Zaragoza</option>
+        <option>Huesca</option>
+        <option selected>Teruel</option>
+        </optgroup>
+        </select>
+        </p>
+        <p>
+        <input type="submit" value="Enviar" />
+        </p>
+        </fieldset>
+</body>
+</html>

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #FFEF9E;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid #f0a500;
+}
+
+img {
+    width: 120px;
+}
+
+.title {
+    font-size: 36px;
+    color: #000;
+    margin-left: 20px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.hexagon {
+    width: 60px;
+    height: 60px;
+    background-color: #f0a500;
+    margin-right: 10%;
+}
+
+.nav {
+    background-color: #f0a500;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-link {
+    background-color: #fff;
+    border: 1px solid #f0a500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #FFEF9E;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 15px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: "Brush Script MT", cursive;
+}
+
+.product-card p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.imagenMedida{
+    height: 350px;
+    width: 100px;
+    object-fit: fill;
+}
+
